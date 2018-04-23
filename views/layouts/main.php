@@ -28,12 +28,12 @@ AppAsset::register($this);
     <div id="header-wrapper" class="wrapper">
         <div id="header">
             <div id="logo">
-                <h1><a href="index.html">CryptoPumps.club</a></h1>
+                <h1><a href="/">CryptoPumps.club</a></h1>
                 <p>Сообщество умных людей, зарабатывающих на пампах</p>
             </div>
             <nav id="nav">
                 <ul>
-                    <li class="current"><a href="index.html">Главная</a></li>
+                    <li class="current"><a href="/">Главная</a></li>
                     <li><a href="#">Telegram-каналы</a></li>
                     <li><a href="#">Расписание ближайших пампов</a></li>
                     <li><a href="#">Статьи</a></li>
@@ -47,13 +47,13 @@ AppAsset::register($this);
     <?= $content ?>
 
     <div id="footer-wrapper" class="wrapper">
-        <div class="title">The Rest Of It</div>
+        <div class="title">Контакты</div>
         <div id="footer" class="container">
             <header class="style1">
-                <h2>Ipsum sapien elementum portitor?</h2>
+                <h2>Интересуетесь заработком на пампах?</h2>
                 <p>
-                    Sed turpis tortor, tincidunt sed ornare in metus porttitor mollis nunc in aliquet.<br />
-                    Nam pharetra laoreet imperdiet volutpat etiam consequat feugiat.
+                    Присоединяйтесь к нашему сообществу!<br />
+                    Вступайте в нашу группу на Facebook и к нашему чату в Telegram!
                 </p>
             </header>
             <hr />
@@ -95,39 +95,17 @@ AppAsset::register($this);
                         <div class="row">
                             <div class="6u 12u(mobile)">
                                 <section>
-                                    <h3 class="icon fa-home">Mailing Address</h3>
-                                    <p>
-                                        Untitled Corporation<br />
-                                        1234 Somewhere Rd #987<br />
-                                        Nashville, TN 00000-0000
-                                    </p>
-                                </section>
-                            </div>
-                            <div class="6u 12u(mobile)">
-                                <section>
                                     <h3 class="icon fa-comment">Social</h3>
                                     <p>
-                                        <a href="#">@untitled-corp</a><br />
-                                        <a href="#">linkedin.com/untitled</a><br />
-                                        <a href="#">facebook.com/untitled</a>
+                                        <a href="https://www.facebook.com/cryptopumps.club/">facebook.com/cryptopumps.club</a>
                                     </p>
                                 </section>
                             </div>
-                        </div>
-                        <div class="row">
                             <div class="6u 12u(mobile)">
                                 <section>
                                     <h3 class="icon fa-envelope">Email</h3>
                                     <p>
-                                        <a href="#">info@untitled.tld</a>
-                                    </p>
-                                </section>
-                            </div>
-                            <div class="6u 12u(mobile)">
-                                <section>
-                                    <h3 class="icon fa-phone">Phone</h3>
-                                    <p>
-                                        (000) 555-0000
+                                        <a href="#">contact@cryptopumps.club</a>
                                     </p>
                                 </section>
                             </div>
@@ -137,11 +115,6 @@ AppAsset::register($this);
                 </div>
             </div>
             <hr />
-        </div>
-        <div id="copyright">
-            <ul>
-                <li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-            </ul>
         </div>
     </div>
 
