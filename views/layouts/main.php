@@ -4,6 +4,7 @@
 /* @var $content string */
 
 use yii\helpers\Html;
+use yii\helpers\Url;
 use app\assets\AppAsset;
 
 AppAsset::register($this);
@@ -60,12 +61,12 @@ AppAsset::register($this);
         <div id="header">
             <div id="logo">
                 <h1><a href="/">CryptoPumps.club</a></h1>
-                <p>Сообщество умных людей, зарабатывающих на пампах</p>
+                <p>Сообщество умных людей, зарабатывающих на пампах криптовалют</p>
             </div>
             <nav id="nav">
                 <ul>
-                    <li class="current"><a href="/">Главная</a></li>
-                    <li><a href="#">Telegram-каналы</a></li>
+                    <li class="current"><a href="/">Что такое памп криптовалют?</a></li>
+                    <li><a href="<?= Url::to(['site/pump-groups']); ?>">Памп-группы</a></li>
                     <li><a href="#">Расписание ближайших пампов</a></li>
                     <li><a href="#">Статьи</a></li>
                     <li><a href="#">FAQ</a></li>

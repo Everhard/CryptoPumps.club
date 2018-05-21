@@ -44,14 +44,13 @@ $config = [
             ],
         ],
         'db' => $db,
-        /*
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'rules' => [
+                'pump-signals-groups' => 'site/pump-groups',
             ],
         ],
-        */
     ],
     'params' => $params,
 ];

@@ -15,4 +15,9 @@ class SiteController extends Controller
     {
         return $this->render('index');
     }
+
+    public function actionPumpGroups()
+    {
+        return $this->render('pump-groups');
+    }
 }
