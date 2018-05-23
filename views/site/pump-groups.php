@@ -50,8 +50,35 @@ $this->registerMetaTag(['name' => 'description', 'content' => '']);
                                     <td>1430</td>
                                     <td>https://t.me/dpump</td>
                                 </tr>
+                                <tr>
+                                    <td>BITCOIN PUMP</td>
+                                    <td>3765</td>
+                                    <td>https://t.me/btcpumpsbtc</td>
+                                </tr>
+                                <tr>
+                                    <td>YoBit-Pump-Community</td>
+                                    <td>1190</td>
+                                    <td>https://t.me/yobit_pump_community</td>
+                                </tr>
+                                <tr>
+                                    <td>TO THE MOON</td>
+                                    <td>2909</td>
+                                    <td>https://t.me/up_moon</td>
+                                </tr>
+                                <tr>
+                                    <td>GosPump</td>
+                                    <td>1045</td>
+                                    <td>https://t.me/gospump</td>
+                                </tr>
+                                <tr>
+                                    <td>0x</td>
+                                    <td>304</td>
+                                    <td>https://t.me/pumps_Ox</td>
+                                </tr>
                             </tbody>
                         </table>
+
+                        <p>Чуть позже будет реализован рейтинг групп, поэтому следите за обновлениями!</p>
 
                         <p>Если вы владеете памп-группой, пишите нам, мы с удовольствием её разместим в нашей таблице!</p>
 
@@ -76,6 +103,7 @@ $this->registerMetaTag(['name' => 'description', 'content' => '']);
                         </header>
                         <ul class="style3">
                             <li><a href="/">О пампах криптовалют</a></li>
+                            <li><a href="/pumps-schedule">Расписание пампов</a></li>
                         </ul>
                     </section>
                 </div>

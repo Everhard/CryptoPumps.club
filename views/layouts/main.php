@@ -67,7 +67,7 @@ AppAsset::register($this);
                 <ul>
                     <li class="current"><a href="/">Что такое памп криптовалют?</a></li>
                     <li><a href="<?= Url::to(['site/pump-groups']); ?>">Памп-группы</a></li>
-                    <li><a href="#">Расписание ближайших пампов</a></li>
+                    <li><a href="<?= Url::to(['site/pumps-schedule']); ?>">Расписание ближайших пампов</a></li>
                     <li><a href="#">Статьи</a></li>
                     <li><a href="#">FAQ</a></li>
                     <li><a href="#">Контакты</a></li>

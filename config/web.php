@@ -49,6 +49,7 @@ $config = [
             'showScriptName' => false,
             'rules' => [
                 'pump-signals-groups' => 'site/pump-groups',
+                'pumps-schedule' => 'site/pumps-schedule',
             ],
         ],
     ],

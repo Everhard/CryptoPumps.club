@@ -20,4 +20,9 @@ class SiteController extends Controller
     {
         return $this->render('pump-groups');
     }
+
+    public function actionPumpsSchedule()
+    {
+        return $this->render('pumps-schedule');
+    }
 }
